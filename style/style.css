@@ -1,0 +1,882 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden
+}
+
+body {
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color:  #4ba92f;
+}
+
+a:hover {
+    color: #4ba92f;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    font-size: 150%;
+}
+
+
+.search-bar {
+    border: none;
+    height: 25px;
+    float: left;
+}
+
+.search-bar-div {
+    padding-left: 55px;
+}
+
+.instafeed-img {
+    width: 200px;
+}
+
+.if-img {
+    opacity: 0.7;
+    width: 90%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.if-img:hover {
+    opacity: 1.0;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+#instafeed {
+    padding-top: 200px;
+}
+
+.youtube-section {
+    text-align: center;
+    padding-top: 100px;
+    width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    height: 150px;
+    padding-left: 35px;
+}
+
+
+.club-heading {
+    margin: 0 0;
+    padding-top: 20px;
+    font-weight: 400;
+    padding-left: 160px;
+}
+
+.top-logo {
+    width: 225px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+
+
+.explore-heading {
+   font-weight: 400;
+   margin: 0 0;
+   padding-top: 20px;
+   float: right;
+   padding-right: 310px;
+}
+
+.problems-heading {
+    font-size: 200%;
+    padding-left: 70px;
+    margin-bottom: -60px;
+}
+
+
+.slide-img-heading {
+    font-size: 200%;
+    padding-left: 70px;
+    margin-bottom: -40px;  
+}
+
+.problems-des {
+    font-size: 160%;
+    padding-left: 70px;
+    width: 80%;
+}
+
+.plant-heading-title2 {
+    margin-bottom: -90px;
+}
+
+.problems-des-probs {
+    font-size: 160%;
+    padding-left: 70px;
+    width: 80%;
+    margin-bottom: -30px;
+}
+
+.bb {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#content-area {
+    width: 100%;
+    height: 700px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background: url(/style/img/home-bg.jpg);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position: center;
+  }
+
+  .home-top-sec {
+      height: 450px;
+  }
+
+  .mobile-post {
+      width: 175px;
+      max-width: 175px;
+      margin: 0 auto;
+  }
+
+  .mobile-post-img3 {
+      width: 170px;
+  }
+
+
+
+  .purpose-box {
+      width: 700px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 50px;
+      -webkit-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.27);
+        -moz-box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.27);
+        box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.27);
+  }
+
+  .purpose-title {
+      font-size: 225%;
+  }
+
+  .purpose-title-text {
+      padding-top: 15px;
+  }
+
+  .purpose-line {
+      width: 450px;
+      height: 2px;
+      background-color: black;
+      margin: 0 auto;
+      margin-top: -15px;
+  }
+
+  .purpose-des {
+      font-size: 135%;
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 50px;
+      font-weight: bold;
+  }
+
+  .clear {
+      clear: both;
+  }
+
+  .h-height {
+      height: 470px;
+  }
+
+  .home-top-img {
+      padding-left: 19.2px;
+      margin-left: 1px;
+  }
+
+  .plant-prob-img {
+      max-width: 100% !important;
+  }
+
+  .plant-prob-img2 {
+      width: 100%;
+  }
+
+  .plant-prob-img3 {
+      width: 100%;
+  }
+
+  .home-bg-info {
+      text-align: center;
+      color: white;
+      font-size: 200%;
+  }
+
+  .bg-header {
+      margin-top: 100px;
+  }
+
+  .header-line {
+      height: 1px;
+      width: 100%;
+      background-color: black;
+      margin-top: 20px;
+  }
+
+  .bg-checkout-div {
+    text-align: center;
+}
+
+  .bg-checkout-btn {
+      text-align: center;
+      width: 200px;
+      height: 50px;
+      color: #4ba92f;
+      background-color: white;
+      margin: 0 auto;
+      font-size: 75%;
+      font-weight: 700;
+      margin-top: 160px;
+      border-radius: 7px;
+  }
+
+  .check-it-a {
+      color: #4ba92f
+  }
+
+  .check-it-a:active {
+    color: black;
+  }
+
+  .check-it-a:hover {
+    color: black;
+  }
+
+  .bg-btn-text {
+      padding-top: 10px;
+  }
+
+  #explore-home {
+      background-color: white !important;
+      height: 1300px;
+      text-align: center;
+  }
+
+  .explore-head {
+      font-size: 92px;
+      text-align: center;
+      font-weight: 500;
+      margin: 0 auto;
+      padding-top: 50px;
+  }
+
+  .explore-sub {
+      text-align: center;
+  }
+
+
+  .featured-posts-head {
+      text-align: center;
+      padding-bottom: 25px;
+      font-size: 200%;
+      font-weight: bold;
+      height: 35px;
+      padding-top: 30px;
+  }
+
+  .club-top {
+      text-align: center;
+  }
+
+  .club-head {
+      font-family: 'Pacifico', sans-serif;
+      font-size: 50px;
+      color: #4ba92f;
+  }
+
+
+  .club-sign-up {
+      width: 500px;
+      margin: 0 auto;
+      margin-top: -35px;
+  }
+
+.sign-up-icons {
+    width: 7%;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.select-icons {
+    width: 7%;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-left: 43px;
+}
+
+.input-name,
+.input-phone-number,
+.input-address {
+    width: 350px;
+    height: 25px;
+    float: right;
+}
+
+.input-instagram,
+.input-favorite-plant {
+    width: 275px;
+    height: 25px;
+    float: right;
+}
+
+.sign-up-fields {
+    text-align: center;
+}
+
+.input-div {
+    display: inline-block;
+}
+
+.select-birthday {
+    height: 25px;
+    float: right;
+    margin-right: 10px;
+}
+
+.select-month {
+    width: 120px;
+    text-indent: 32px;
+}
+
+.select-day {
+    width: 75px;
+    text-indent: 17px;
+}
+
+.select-year {
+    width: 110px;
+    text-indent: 31px;
+}
+
+.select-reason {
+    height: 25px;
+    float: right;
+    margin-right: 15px;
+    width: 275px;
+    text-indent: 74px;
+}
+
+.home-blog-post-area {
+    background-color: #E7F2EC !important;
+}
+
+.post-main {
+    padding-top: 35px;
+    max-width: 100%;
+}
+
+.blog-bg {
+    width: 900px;
+    margin: 0 auto;
+    padding-left: 25px;
+    max-height: 3000px;
+}
+
+
+
+.post {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: white;
+    -webkit-box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+    -moz-box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+    box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+}
+
+.post3 {
+    width: 200px;
+    height: 365px;
+    margin: 0 auto;
+    background-color: white;
+    -webkit-box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+    -moz-box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+    box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+}
+
+.post-image {
+    width: 200px;
+    height: 175px;
+}
+
+.post-image3 {
+    width: 200px;
+    height: 215px;
+}
+
+.post-category3 {
+    background-color: #919191;
+    color: white;
+    margin-left: 20px;
+    padding-top: 1px;
+    margin-right: 140px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 70%;
+}
+
+.post-title3 {
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.title-underline {
+    width: 70%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #919191;
+}
+
+.post-subhead3 {
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 85%;
+    text-align: center;
+    width: 95%;
+}
+
+.post-details {
+    text-align: center;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 125%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.post-subhead {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.sign-up-btn {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.join-club-btn {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding-right: 70px;
+}
+
+.sign-up-btn-text {
+    width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #4ba92f;
+    text-align: center;
+}
+
+.join-club-btn-text {
+    width: 215px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #4ba92f;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sign-up-submit {
+    font-size: 175%;
+    font-weight: bold;
+    color: green;
+    margin: 0 auto;
+}
+
+.join-club-submit {
+    font-size: 150%;
+    font-weight: bold;
+    color: green;
+    margin: 0 auto;
+}
+
+
+.free-plants-left {
+    float: left;
+    width: 700px;
+    color: #94ad28;
+}
+
+.fp2 {
+    color: #ffb3b2 !important;
+}
+
+.free-plants-heading p {
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.free-plants-info {
+    font-size: 25px;
+    padding-left: 60px;
+    margin-top: 50px;
+}
+
+
+.free-plants-img {
+    width: 100%;
+}
+
+.free-plants-img-sec {
+    float: right;
+    width: 500px;
+    padding-right: 30px;
+}
+
+.first-look-img-sec {
+    width: 550px;
+    padding-left: 80px;
+    float: left;
+}
+
+.first-look {
+    margin-top: 50px;
+}
+
+.first-look-img {
+    width: 85%;
+}
+
+.first-look-right {
+    width: 550px;
+    float: right;
+    margin-top: 85px;
+}
+
+.first-look-heading p {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-left: 125px;
+}
+
+.first-look-info {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.plant-help {
+    margin-top: 150px;
+}
+
+.club-posts-head {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.club-posts-head p {
+    font-weight: bold;
+}
+
+.mgt {
+    margin-top: 40px;
+}
+
+.post2 {
+    width: 150px;
+    height: 225px;
+    margin: 0 auto;
+    background-color: white;
+    -webkit-box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+    -moz-box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+    box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+}
+
+.post-image2 {
+    width: 150px;
+    height: 125px;
+}
+
+.post-details {
+    text-align: center;
+}
+
+.post-title2 {
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.post-subhead2 {
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 85%;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.footer-line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+.social-media-icons {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.footer-icons {
+    width: 30px;
+    padding-left: 25px;
+}
+
+.footer-icons1{
+    width: 30px;
+    padding-left: 10px;
+}
+
+.footer-bottom {
+    width: 100%;
+}
+
+.footer-join {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 175%;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.footer-rights {
+    float: right;
+    margin-right: -25px;
+    padding-top: 15px;
+}
+
+.hh {
+    color: white;
+}
+
+.exploration-leaf-left {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.explore-welcome {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.explore-welcome p {
+    font-weight: bold;
+    font-size: 295%;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.exploration-leaf-right {
+    width: 30%;
+    float: right;
+    transform: rotate(300deg);
+    margin-right: -35px;
+}
+
+
+
+#explore-selector {
+    width: 100%;
+    height: 75px;
+    background-color: #dcf7e5;
+    margin: 0 auto;
+}
+
+.explore-list {
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    list-style: none;
+    padding-top: 23px;
+
+}
+
+.explore-list li {
+    display: inline-block;
+    font-size: 160%;
+    text-decoration: none;
+    padding-right: 25px;
+    color: black;
+}
+
+.el-li {
+  padding-left: 25px;
+}
+
+
+.li-border {
+    border-right: 2px solid #929292;
+}
+
+.view-all {
+    width: 100px;
+    margin: 0 auto;
+    padding-left: 1px;
+    padding-top: 15px;
+}
+
+.view-all p a {
+    color: black;
+}
+
+input[name='name']{
+    text-align: center;
+    font-size: 125%;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    }
+
+input[name='name']:focus{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    }
+
+
+select {
+    text-align: center;
+    background-color: white;
+    font-weight: 600;
+    font-size: 80%;
+}
+
+select option {
+    text-align: center;
+}
+
+
+/* Mailchimp Style */
+
+.embed_signup {
+    background:#fff;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+}
+
+
+
+/* Mobile Only Style */
+
+.mobile-p-category {
+    text-align: left;
+    font-size: 65%;
+    padding-left: 10px;
+    margin-left: 15px;
+    background-color: #919191;
+    width: 35px;
+    color: white;
+}
+
+
+.mobile-p-title {
+    text-align: center;
+    font-size: 78%;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.mobile-p-underline {
+    width: 70%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #919191;
+    margin-top: -10px;
+}
+
+.mobile-p-subhead {
+    font-size: 65%;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.mobile-post {
+    background-color: white;
+    -webkit-box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+    -moz-box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61);
+    box-shadow: -1px 4px 5px 1px rgba(158,158,158,0.61); 
+}
+
+.mobile-post-img3 {
+    height: 145px;
+}
+
+.mobile-home-top {
+    padding-top: 20px;
+}
+
+
+.mobile-blog-sec {
+    display: none;
+}
+
+
+
+/* Club Index */
+
+body {
+    overflow-x: hidden;
+}
+
+
+.mobile-home-top {
+    display: none;
+}
+
+

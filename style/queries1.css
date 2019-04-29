@@ -1,0 +1,543 @@
+@media only screen and (max-width: 1200px) {
+    .home-top-img {
+        padding-left: 16.2px;
+    }
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .info-icons {
+        display: none;
+    }
+
+    .club-heading {
+        padding-left: 50px;
+    }
+
+    .explore-heading {
+        padding-right: 200px;
+    }
+
+    .blog-bg {
+        width: 725px;
+    }
+
+    .featured-posts-head {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .plant-prob-img {
+        margin-top: 100px;
+        width: 90%;
+
+        max-width: 95% !important;
+    }
+
+    .explore-welcome {
+        padding-left: 0px;
+    }
+
+    .exploration-leaf-right {
+        margin-right: -47px;
+    }
+
+    .h-height {
+        display: none;
+    }
+
+    .home-top-img {
+        display: none;
+    }
+
+    .mobile-top-img {
+        max-width: 1023px;
+        width: 100%;
+    }
+
+    .mobile-img-top {
+        width: 100%;
+    }
+
+    .join-club-btn {
+        padding-right: 0px;
+    }
+
+    .home-top-sec {
+        height: 750px;
+    }
+
+    .free-plants-left {
+        float: none;
+        max-width: 80%;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    .free-plants-heading {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    .free-plants-heading p {
+        text-align: center;
+        padding-left: 0px;
+        margin: 0px;
+    }
+
+    .free-plants-info {
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .free-plants-img-sec {
+        float: none;
+        padding-right: 0px;
+        text-align: center;
+        margin: 0 auto;
+        padding-right: 0px;
+        width: 300px;
+        padding-bottom: 30px;
+    }
+
+    .first-look-img-sec {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 0px;
+        width: 300px;
+    }
+
+    .first-look-right {
+        max-width: 80%;
+        width: 750px;
+        float: none;
+        margin-top: 30px;
+        margin: 0 auto;
+    }
+
+    .first-look-heading {
+        text-align: center;
+    }
+
+    .first-look-heading p {
+        padding-left: 0px;
+    }
+
+    .first-look-info {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .plant-help {
+        margin-top: 50px;
+    }
+
+    .desktop-ci {
+        display: none;
+    }
+
+    .mobile-ci {
+        display: block;
+    }
+
+    .club-top {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    .mobile-ci {
+        margin-top: -125px;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+    .blog-bg {
+        max-width: 480px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .purpose-des {
+        font-size: 95%;
+    }
+
+
+    .blog-big-sec {
+        min-width: 480px;
+        text-align: center;
+    }
+
+    .post3 {
+        width: 140px;
+        height: 255px;
+    }
+
+    .post-image3 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .post-title3 {
+        font-size: 80%;
+    }
+
+    .explore-heading {
+        padding-right: 100px;
+    }
+
+    .search-bar-div {
+        padding-left: 0px;
+    }
+
+    .purpose-box {
+        max-width: 80%;
+    }
+
+    .purpose-line {
+        max-width: 400px;
+    }
+
+    .social-media-icons {
+        padding-right: 0px;
+    }
+
+    .exploration-leaf-right {
+        opacity: 0;
+    }
+
+    .exploration-leaf-left {
+        opacity: 0;
+    }
+
+    .explore-list li {
+        display: block;
+        padding-right: 0px;
+        font-size: 140%;
+    }
+
+    .el-li {
+        padding-left: 0px;
+    }
+
+    #explore-selector {
+        width: 40%;
+        margin: 0 auto;
+        height: 180px;
+    }
+
+    .explore-list {
+        width: 50%;
+        padding-inline-start: 0px;
+        -webkit-padding-start: 0px;
+    }
+
+    .ul {
+        -webkit-padding-start: 0px;
+    }
+
+    .li-border {
+        border-right: none;
+    }
+    .explore-welcome p {
+        font-size: 175%;
+        width: 90%;
+        text-align: center;
+        margin: 0px;
+        margin: 0 auto;
+        padding-left: 5px;
+    }
+
+    .explore-welcome {
+        text-align: center;
+    }
+
+    .footer-rights {
+        margin-right: -10px;
+        font-size: 90%;
+    }
+
+    .home-top-sec {
+        height: 600px;
+    }
+
+    .free-plants-left {
+        max-width: 80%;
+    }
+
+    .first-look-right {
+        max-width: 80%;
+    }
+
+
+    .free-plants-heading p {
+        font-size: 300%;
+    }
+
+    .first-look-heading p {
+        font-size: 300%;
+    }
+
+    .free-plants-info p {
+        font-size: 80%;
+    }
+
+    .first-look-info p {
+        font-size: 80%;
+    }
+
+
+    .club-top {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -40px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .purpose-title {
+        font-size: 200%;
+    }
+
+    .purpose-des {
+        padding-bottom: 30px;
+        font-size: 75%;
+    }
+
+    .post-image3 {
+        width: 200px;
+        height: 215px;
+    }
+
+    .post-title {
+        font-size: 100%;
+    }
+
+    .post3 {
+        width: 200px;
+        height: 325px;
+        text-align: center;
+        max-width: 100%;
+        display: block;
+    }
+
+    .post-main {
+        float: none !important;
+        width: 50%;
+        display: inline-block;
+        margin-left: 70px;
+        vertical-align: middle;
+    }
+
+    .view-all {
+        padding-left: 0px;
+    }
+
+    .blog-big-sec {
+        min-width: 400px;
+    }
+
+
+    .blog-bg {
+        max-width: 100%;
+        padding-left: 0px;
+        vertical-align: middle;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+
+    .explore-heading {
+        float: none;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    .club-heading {
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .search-bar-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+
+    .purpose-box {
+        max-width: 390px;
+    }
+
+    .purpose-line {
+        max-width: 250px;
+    }
+
+    .hh {
+        height: 1px;
+    }
+
+    .footer-join {
+        padding-left: 15px;
+        margin-top: -15px;
+    }
+
+    .mobile-ec {
+        display: none;
+    }
+
+    .e-c {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    #explore-selector {
+        width: 70%;
+        margin: 0 auto;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+    .explore-list li {
+        font-size: 160%;
+    }
+
+    .footer-rights {
+        margin-right: 0px;
+        font-size: 80%;
+        margin-top: -10px;
+        float: none;
+        padding-left: 15px;
+        text-align: center;
+    }
+
+
+    .home-top-sec {
+        height: 450px;
+    }
+
+    .featured-posts-head {
+        padding-top: 0px;
+    }
+
+    .mobile-col2 {
+        width: 50% !important;
+        margin-bottom: 30px;
+    }
+
+    .mobile-blog-bg {
+        display: none;
+    }
+
+    #explore-home {
+        max-height: 900px;
+        margin-top: -15px;
+    }
+
+    .responsive-heading-item {
+        width: 50% !important;
+        font-size: 70%;
+    }
+
+    .club-top {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+
+    .club-top p {
+        font-size: 175%;
+    }
+
+    #mc_embed_signup {
+        max-width: 97%;
+    }
+
+
+    .mobile-blog-sec {
+        display: block;
+    }
+
+    .blog-bg {
+        display: none;
+    }
+
+    .mobile-home-top {
+        display: block;
+    }
+
+
+    .input-name,
+    .input-phone-number,
+    .input-address,
+    .input-instagram,
+    .input-favorite-plant
+     {
+        width: 250px;
+        height: 18px;
+        float: right;
+    }
+
+    .input-instagram,
+    .input-favorite-plant,
+    .select-reason {
+        width: 200px;
+    }
+
+    .select-reason {
+      text-indent: 20px;
+    }
+
+
+    .privacy-policy {
+        margin-right: 0px;
+        font-size: 80%;
+        margin-top: -10px;
+        float: none;
+        padding-left: 15px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .footer-join {
+        display: none;
+    }
+
+    .footer-icons {
+        padding-left: 15px;
+    }
+
+
+    .select-icons {
+        padding-left: 70px;
+    }
+
+    .club-info {
+        margin-bottom: -50px;
+    }
+
+
+
+}
